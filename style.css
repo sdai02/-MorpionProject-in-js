@@ -1,0 +1,53 @@
+
+body{
+    background: #fffffff1;
+}
+nav{
+    text-align: center;
+    background: rgba(8, 94, 116, 0.76);
+    
+}
+nav h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+footer h2{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 50px;
+    font-family: 'Roboto';
+    font-style: italic;
+}
+
+.footer__morpion{
+    padding-top: 30px;
+    
+    
+}
+
+.morpion__grid ul{
+    
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+.morpion__grid ul li {
+    border: solid 2px black;
+    width: 150px;
+    height: 150px;
+}
+
+.morpion__grid ul li button{
+    width: 150px;
+    height: 150px;
+    border: 0;
+    
+}
