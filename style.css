@@ -1,10 +1,12 @@
 
 body{
     background: #fffffff1;
+    overflow: hidden;
 }
 nav{
     text-align: center;
     background: rgba(8, 94, 116, 0.76);
+  
     
 }
 nav h1{
@@ -19,10 +21,12 @@ nav h1{
 
 footer h2{
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 10%;
     font-size: 50px;
     font-family: 'Roboto';
     font-style: italic;
+    text-align: center;
+    
 }
 
 .footer__morpion{
@@ -31,23 +35,107 @@ footer h2{
     
 }
 
+    
+
 .morpion__grid ul{
     
     display: flex;
-    width: 600px;
+    
     margin: 0 auto;
     justify-content: center;
 
 }
 .morpion__grid ul li {
     border: solid 2px black;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
+
 }
 
-.morpion__grid ul li button{
-    width: 150px;
-    height: 150px;
-    border: 0;
+.ul__button{
     
+    width: 100%;
+    height: 100%;  
+
+    border: 0;
+    background-color: transparent;
+}
+
+.morpion__open{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30%;
+    
+}
+
+.open__x-button{
+    margin-right: 10%;
+    background-color: rgb(197, 40, 40, 1);
+    border-radius: 5px;
+    width: 12%;
+    height: 60px;
+    border: 0px;
+    color: white;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.open__x-button:hover{
+    background-color: rgb(197, 40, 40, 0.658);
+}
+
+.open__o-button{
+    
+    background-color: rgba(48, 61, 240,1 );
+    border-radius: 5px;
+    width: 12%;
+    height: 60px;
+    border: 0px;
+    color: white;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.open__o-button:hover{
+    background-color: rgb(48, 61, 240, 0.658);
+}
+
+.reset{
+    margin: 0 auto;
+    display: block;
+    width:  150px;
+    height: 50px;
+    margin-top: 1%;
+    background: rgba(8, 94, 116, 1);
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Roboto';
+    border-radius: 5px;
+
+}
+.reset:hover{
+    background: rgba(8, 94, 116, 0.76);
+}
+.button__O{
+    font-family: 'Roboto';
+    color: rgba(48, 61, 240,1 );
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.button__X{
+    font-family: 'Roboto';
+    color: rgb(197, 40, 40, 1);
+    font-size: 50px;
+    font-weight: bolder;
+}
+.morpion__score{
+    padding-left: 12px;
+    font-family: 'Roboto';
 }

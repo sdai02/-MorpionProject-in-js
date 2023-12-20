@@ -12,36 +12,42 @@
 </head>
 <body>
     <nav>
-        <h1>morpion game</h1>
+        <h1>tic-tac-toe</h1>
     </nav>
 
     <footer>
 
         
-        <h2>To start the game click to begin :</h2>
+        <h2>To start the game <br>
+            click to begin :</h2>
        <form class="footer__morpion">
             <div class="morpion__open">
-                <button class="open__x-button">begin as X</button>
-                <button class="open__o-button">begin as O</button>
+                <button class="open__x-button">X</button>
+                <button class="open__o-button">O</button>
             </div>
-            <button>reset</button>
+            <div class="morpion__score">
+                <p class="score__texte-x">player X = </p> <span class="score__counter-x"></span><br>
+                <p class="score__texte-o">player O = </p> <span class="score__counter-o"></span>
+
+            </div>
            <div class="morpion__grid">
                <ul>
-                    <li><button></button></li>
-                    <li><button></button></li>
-                    <li><button></button></li>
+                    <li><button class="ul__button"></button></li>
+                    <li><button class="ul__button"></button></li>
+                    <li><button class="ul__button"></button></li>
                </ul>
                <ul>
-                    <li><button></button></li>
-                    <li><button></button></li>
-                    <li><button></button></li>
+                    <li><button class="ul__button"></button></li>
+                    <li><button class="ul__button"></button></li>
+                    <li><button class="ul__button"></button></li>
                </ul>
                <ul>
-                    <li><button></button></li>
-                    <li><button></button></li>
-                    <li><button></button></li>
+                    <li><button class="ul__button"></button></li>
+                    <li><button class="ul__button"></button></li>
+                    <li><button class="ul__button"></button></li>
                </ul>
            </div>
+           <button class="reset">reset</button>
            
        </form>
     </footer>
