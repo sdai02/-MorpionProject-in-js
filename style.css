@@ -108,7 +108,7 @@ footer h2{
     display: block;
     width:  150px;
     height: 50px;
-    margin-top: 1%;
+    margin-top: 5px;
     background: rgba(8, 94, 116, 1);
     border: 0;
     color: white;
@@ -122,14 +122,14 @@ footer h2{
 .reset:hover{
     background: rgba(8, 94, 116, 0.76);
 }
-.button__O{
+.button__o{
     font-family: 'Roboto';
     color: rgba(48, 61, 240,1 );
     font-size: 50px;
     font-weight: bolder;
 }
 
-.button__X{
+.button__x{
     font-family: 'Roboto';
     color: rgb(197, 40, 40, 1);
     font-size: 50px;
@@ -138,4 +138,39 @@ footer h2{
 .morpion__score{
     padding-left: 12px;
     font-family: 'Roboto';
+    text-transform: uppercase;
+}
+.score__text-x{
+    display: flex;
+}
+.score__text-x p{
+    padding-right: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.text-x__player{
+    color: rgb(197, 40, 40, 1);
+}
+
+.score__counter-x{
+    font-size: 20px;
+    color: rgb(197, 40, 40, 1);
+}
+
+
+.score__text-o{
+    display: flex;
+}
+.score__text-o p{
+    padding-right: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.text-o__player{
+    color: rgba(48, 61, 240,1 );
+}
+.score__counter-o{
+    font-size: 20px;
+    color: rgba(48, 61, 240,1 );
+    
 }
